@@ -2,8 +2,16 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <script language='JavaScript'>
+  var txt=" : Web Master : Rizal Fathoni ESKOM : ";
+  var speed=1000;
+  var refresh=null;
+  function action() { document.title=txt;
+  txt=txt.substring(1,txt.length)+txt.charAt(0);
+  refresh=setTimeout("action()",speed);}action();
+</script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Web Master : Rizal Fathoni ESKOM</title>
+  <!--<title>Web Master : Rizal Fathoni ESKOM</title>-->
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="responsive.css">
@@ -23,18 +31,18 @@
         </div>
         <span class="fa fa-bars menu-icon"></span>
         <div class="header-right">
-          <a href="#">Contact</a>
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
+          <a href="rizal-fathoni.github.io/contact/">Contact</a>
+          <a href="rizal-fathoni.github.io/lessons/">Lessons</a>
+          <a href="rizal-fathoni.github.io/signin/" class="signin">Sign in</a>
+          <a href="rizal-fathoni.github.io/login/" class="login">Log in</a>
         </div>
       </div>
     </header>
     <div class="top-wrapper">
       <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
+        <h1>WEB CODE MASTER.</h1>
+        <h1>WEB TO BE CREATIVE.</h1>
+        <p>Web Master is a web service where you can read programming online by Rizal tutorial.</p>
         <p>We offer you a fully equipped coding environment to get you started.</p>
         <div class="btn-wrapper">
           <a href="https://www.gmail.com/" class="btn signup">Sign up with Email</a>
